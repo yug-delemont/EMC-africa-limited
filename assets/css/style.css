@@ -32,7 +32,8 @@ header {
     transform: translateX(-50%);
     position: absolute;
     padding: 14rem 0 0;
-    text-align: center
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 section.hero {

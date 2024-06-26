@@ -1,0 +1,42 @@
+@media (max-width:1018px){
+    h1.coming {
+        font-size: 6rem;
+    }
+    
+    .social {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    h1.coming {
+        font-size: 5rem;
+    }
+    
+    p.new {
+        padding-bottom: 0;
+    }
+    
+    .social {
+        margin-top: 2rem;
+    }
+}
+@media (max-width: 602px) {
+    h1.coming {
+        font-size: 4rem;
+    }
+    
+    .social {
+        margin-top: 1rem;
+    }
+}
+@media (max-width:580px) {
+    h1.coming {
+        font-size: 3rem;
+        line-height: normal;
+    }
+    
+    p.new {
+        font-size: 1.6rem;
+    }
+}

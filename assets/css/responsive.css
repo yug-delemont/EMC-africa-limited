@@ -1,8 +1,20 @@
-@media (max-width:1018px){
+@media (max-width:1304px) {
     h1.coming {
-        font-size: 6rem;
+        font-size: 5rem;
     }
-    
+}
+
+@media (max-width:1084px) {
+    h1.coming {
+        font-size: 4.5rem;
+    }
+}
+
+@media (max-width:1018px) {
+    /* h1.coming {
+        font-size: 6rem;
+    } */
+
     .social {
         margin-top: 2rem;
     }
@@ -10,32 +22,34 @@
 
 @media (max-width: 992px) {
     h1.coming {
-        font-size: 5rem;
+        font-size: 4rem;
     }
-    
+
     p.new {
         padding-bottom: 0;
     }
-    
+
     .social {
         margin-top: 2rem;
     }
 }
+
 @media (max-width: 602px) {
     h1.coming {
         font-size: 4rem;
     }
-    
+
     .social {
         margin-top: 1rem;
     }
 }
+
 @media (max-width:580px) {
     h1.coming {
         font-size: 3rem;
         line-height: normal;
     }
-    
+
     p.new {
         font-size: 1.6rem;
     }

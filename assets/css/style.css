@@ -1,8 +1,8 @@
 a.social-icon,
 section.hero {
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex
@@ -10,7 +10,7 @@ section.hero {
 
 * {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box
+    box-sizing: border-box
 }
 
 body {
@@ -28,21 +28,41 @@ body {
 header {
     left: 50%;
     -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-            transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
     position: absolute;
-    padding: 40px;
+    padding: 14rem 0 0;
     text-align: center
 }
 
 section.hero {
     height: calc(100vh);
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding: 60px 0;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
-    position: relative
+    position: relative;
+}
+
+section.hero::after {
+    content: "";
+    position: absolute;
+    background: url('../image/left-bottom-patten.svg') no-repeat;
+    height: 13.7rem;
+    width: 10.6rem;
+    left: 0;
+    bottom: 0;
+}
+
+section.hero::before {
+    content: "";
+    position: absolute;
+    background: url('../image/left-bottom-patten.svg') no-repeat;
+    height: 13.7rem;
+    width: 10.6rem;
+    right: 0;
+    top: 0;
+    transform: rotate(180deg);
 }
 
 .new {
@@ -55,8 +75,8 @@ section.hero {
 }
 
 h1.coming {
-    font-size: 8.5rem;
-    font-weight: 700;
+    font-size: 6rem;
+    font-weight: 300;
     line-height: 5.9375rem;
     letter-spacing: -.135rem
 }
@@ -67,8 +87,8 @@ a.social-icon {
     height: 3rem;
     width: 3rem;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center
+    -ms-flex-pack: center;
+    justify-content: center
 }
 
 .social {
@@ -76,15 +96,20 @@ a.social-icon {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-top: 3rem;
     gap: 1rem
 }
 
 .container {
     margin: 0 1rem
+}
+
+.logo {
+    width: 161px;
+    height: 60px;
 }
